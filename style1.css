@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://avatars.mds.yandex.net/i?id=b0879327ad173b9836a8e6b01f080390b2184ec7-12625448-images-thumbs&n=13');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    place-items: center;
+}
+@media (max-width: 700px) {
+    body {color: aquamarine;
+          text-align: center;
+    }
+    h2 {
+        display: block;
+        font-size: 12px;
+        margin: 0;
+       }
+#photo {
+    width: 70%;
+    margin: 0 auto;
+    border: 10px red;
+    
+}
+.link {
+    display: none;
+}
+}
+@media ((min-width: 701px) and (max-width: 1000px)) {
+    body {
+        color: palevioletred;
+        text-align: right;
+    }
+    h2 {
+        display: list-item;
+        font-size: 14px;
+        margin: 20px;
+    }
+    #photo {
+        width: 60%;
+        align-items: right;
+    }
+}
+
